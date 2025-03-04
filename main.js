@@ -1,3 +1,4 @@
-import { sakkTablaKeszites } from "./fugvenyek.js";
+import { sakkTablaKeszites,parasztMegjelenit } from "./fugvenyek.js";
 
 sakkTablaKeszites()
+parasztMegjelenit()
