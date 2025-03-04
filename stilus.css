@@ -1,0 +1,18 @@
+.vilagosOldal{
+    background-color: white;
+    border: 1px solid black;
+}
+
+.sotetOldal{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+}
+main{
+    background-color: bisque;
+    width: 70%;
+    margin: auto;
+    
+}
+body{
+    background-color: aqua;
+}
