@@ -20,3 +20,9 @@ main{
 body{
     background-color: aqua;
 }
+.tarolo {
+    display: grid;
+    grid-template-columns: repeat(8, 50px); /* 8 oszlop */
+    grid-template-rows: repeat(8, 50px); /* 8 sor */
+    
+}
