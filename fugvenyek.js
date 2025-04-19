@@ -17,12 +17,20 @@ export function parasztMegjelenit() {
         mezo.addEventListener("click", () => {
             if (!mezo.querySelector("img")) {
                 const img = document.createElement("img");
-                img.src = "./parasztBabu.jpg"; // ügyelj arra, hogy ez a fájl tényleg ott legyen!
-                img.alt = "paraszt";
-                img.style.width = "100%";
-                img.style.height = "100%";
+
+                if (mezo.classList.contains("sotetOldal")) {
+                    img.src = "./feherBabu.jpg"; 
+                    img.alt = "fehér paraszt";
+                } else {
+                    img.src = "./feketeBabu.jpg"; 
+                    img.alt = "fekete paraszt";
+                }
+
+                img.style.width = "50%";
+                img.style.height = "50%";
                 mezo.appendChild(img);
             }
         });
     });
 }
+
